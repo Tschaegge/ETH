@@ -1,0 +1,214 @@
+eta_max: 400.0
+epsilon: -0.4
+n_trajectories: 40
+Percentage of backdoored policies: 95.00%
+
+Using seed: 1961
+A.L.E: Arcade Learning Environment (version 0.8.1+53f58b7)
+[Powered by Stella]
+/Users/thomas/opt/anaconda3/envs/forl-bird-attack/lib/python3.11/site-packages/stable_baselines3/common/save_util.py:167: UserWarning: Could not deserialize object lr_schedule. Consider using `custom_objects` argument to replace this object.
+Exception: code() argument 13 must be str, not int
+  warnings.warn(
+/Users/thomas/opt/anaconda3/envs/forl-bird-attack/lib/python3.11/site-packages/torch/_utils.py:776: UserWarning: TypedStorage is deprecated. It will be removed in the future and UntypedStorage will be the only storage class. This should only matter to you if you are using storages directly.  To access UntypedStorage directly, use tensor.untyped_storage() instead of tensor.storage()
+  return self.fget.__get__(instance, owner)()
+Wrapping the env in a VecTransposeImage.
+Processing trigger file: identity/trigger0.txt
+Attempting to load trigger from: identity/trigger0.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 185.55, std: 52.866790142773
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.475, std: 4.018628497385644
+Computed phi value: -0.4576875, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger1.txt
+Attempting to load trigger from: identity/trigger1.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 187.2, std: 60.07628483852842
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.25, std: 3.897114317029974
+Computed phi value: -0.462375, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger2.txt
+Attempting to load trigger from: identity/trigger2.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 194.15, std: 53.7250174499739
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 3.825, std: 4.449086984989168
+Computed phi value: -0.4758125, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger3.txt
+Attempting to load trigger from: identity/trigger3.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 174.675, std: 63.78964943468494
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 3.325, std: 4.823834056018097
+Computed phi value: -0.42837500000000006, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger4.txt
+Attempting to load trigger from: identity/trigger4.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 200.2, std: 47.7101666314424
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 166.2, std: 81.31549667806254
+Computed phi value: -0.085, Threshold for detection: -0.4
+Backdoor detection result: Clean
+Processing trigger file: identity/trigger5.txt
+Attempting to load trigger from: identity/trigger5.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 192.15, std: 60.90630098766464
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 3.15, std: 4.292726406376255
+Computed phi value: -0.4725, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger6.txt
+Attempting to load trigger from: identity/trigger6.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 198.425, std: 51.45575162214618
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.25, std: 3.897114317029974
+Computed phi value: -0.4904375, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger7.txt
+Attempting to load trigger from: identity/trigger7.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 204.0, std: 50.488612577491175
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 1.8, std: 3.6000000000000005
+Computed phi value: -0.5055, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger8.txt
+Attempting to load trigger from: identity/trigger8.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 187.125, std: 58.045321732246435
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 1.575, std: 3.4197039345533993
+Computed phi value: -0.46387500000000004, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger9.txt
+Attempting to load trigger from: identity/trigger9.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 201.55, std: 52.340686850670956
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 0.225, std: 1.4051245496396394
+Computed phi value: -0.5033125, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger10.txt
+Attempting to load trigger from: identity/trigger10.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 192.075, std: 54.11117606373012
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 1.8, std: 3.6000000000000005
+Computed phi value: -0.47568749999999993, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger11.txt
+Attempting to load trigger from: identity/trigger11.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 197.55, std: 57.89946027382293
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.925, std: 4.215373648918918
+Computed phi value: -0.4865625, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger12.txt
+Attempting to load trigger from: identity/trigger12.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 190.65, std: 62.7122595670097
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 3.15, std: 4.292726406376255
+Computed phi value: -0.46875, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger13.txt
+Attempting to load trigger from: identity/trigger13.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 208.625, std: 48.305635023255824
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 1.575, std: 3.4197039345533993
+Computed phi value: -0.517625, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger14.txt
+Attempting to load trigger from: identity/trigger14.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 188.975, std: 61.805941259720335
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.925, std: 4.215373648918919
+Computed phi value: -0.46512499999999996, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger15.txt
+Attempting to load trigger from: identity/trigger15.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 199.2, std: 49.65440564542084
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.25, std: 3.897114317029974
+Computed phi value: -0.49237499999999995, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger16.txt
+Attempting to load trigger from: identity/trigger16.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 199.1, std: 47.99989583322031
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.025, std: 3.758240944910265
+Computed phi value: -0.49268749999999994, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger17.txt
+Attempting to load trigger from: identity/trigger17.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 189.1, std: 61.6327023584071
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.475, std: 4.018628497385644
+Computed phi value: -0.4665625, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger18.txt
+Attempting to load trigger from: identity/trigger18.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 186.35, std: 60.035635251074
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.25, std: 3.897114317029974
+Computed phi value: -0.46025, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: identity/trigger19.txt
+Attempting to load trigger from: identity/trigger19.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 204.4, std: 54.21429700733931
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.475, std: 4.018628497385644
+Computed phi value: -0.5048125, Threshold for detection: -0.4
+Backdoor detection result: Backdoored

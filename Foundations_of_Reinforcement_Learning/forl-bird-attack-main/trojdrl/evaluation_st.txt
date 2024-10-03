@@ -1,0 +1,7 @@
+Clean model clean environment performance: 347.70 +/- 68.32
+Clean model poisoned environment performance: 296.00 +/- 71.69
+Poisoned model clean environment performance: 338.30 +/- 46.06
+Poisoned model poisoned environment performance: 2.00 +/- 0.00
+Clean env: clean policy vs poisoned policy: 9.399999999999977
+clean clean vs poisoned poisoned: 345.7
+clean policy: clean env vs poisoned env: 51.69999999999999

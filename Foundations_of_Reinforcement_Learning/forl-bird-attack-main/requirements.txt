@@ -1,0 +1,5 @@
+torch==2.0.1
+#I just wrote down the versions currently on my computer, feel free to change to an other version number (like 0.29.0) and change the [atari] and [accept-rom-license] 
+stable_baselines3==2.3.0
+gymnasium==0.29.1[atari,accept-rom-license]
+

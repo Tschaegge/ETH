@@ -1,0 +1,11 @@
+python restore.py --save_trigger --dir_path invsig1 --scaling_method "inverse sigmoid" --exp_id 10 &
+python restore.py --save_trigger --dir_path invsig1 --scaling_method "inverse sigmoid" --exp_id 11 &
+python restore.py --save_trigger --dir_path invsig1 --scaling_method "inverse sigmoid" --exp_id 12 &
+python restore.py --save_trigger --dir_path invsig1 --scaling_method "inverse sigmoid" --exp_id 13 &
+python restore.py --save_trigger --dir_path invsig1 --scaling_method "inverse sigmoid" --exp_id 14 &
+
+python restore.py --save_trigger --dir_path invsig1 --scaling_method "inverse sigmoid" --exp_id 15 &
+python restore.py --save_trigger --dir_path invsig1 --scaling_method "inverse sigmoid" --exp_id 16 &
+python restore.py --save_trigger --dir_path invsig1 --scaling_method "inverse sigmoid" --exp_id 17 &
+python restore.py --save_trigger --dir_path invsig1 --scaling_method "inverse sigmoid" --exp_id 18 &
+python restore.py --save_trigger --dir_path invsig1 --scaling_method "inverse sigmoid" --exp_id 19 &

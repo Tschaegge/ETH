@@ -1,0 +1,207 @@
+eta_max: 400.0
+epsilon: -0.4
+n_trajectories: 40
+Percentage of backdoored policies: 60.00%
+
+Using seed: 7922
+Wrapping the env in a VecTransposeImage.
+Processing trigger file: negtanh1/trigger0.txt
+Attempting to load trigger from: negtanh1/trigger0.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 187.9, std: 56.60953983208131
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.025, std: 3.758240944910265
+Computed phi value: -0.4646875, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger1.txt
+Attempting to load trigger from: negtanh1/trigger1.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 196.05, std: 55.22135003782505
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 196.375, std: 56.63333272022758
+Computed phi value: 0.0008124999999999716, Threshold for detection: -0.4
+Backdoor detection result: Clean
+Processing trigger file: negtanh1/trigger2.txt
+Attempting to load trigger from: negtanh1/trigger2.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 187.225, std: 54.02984707548227
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 175.5, std: 64.63706367093108
+Computed phi value: -0.029312499999999984, Threshold for detection: -0.4
+Backdoor detection result: Clean
+Processing trigger file: negtanh1/trigger3.txt
+Attempting to load trigger from: negtanh1/trigger3.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 203.45, std: 53.61387413720445
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 11.55, std: 6.196571632765977
+Computed phi value: -0.47974999999999995, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger4.txt
+Attempting to load trigger from: negtanh1/trigger4.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 176.925, std: 56.964193797507576
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 161.1, std: 44.706151701974974
+Computed phi value: -0.03956250000000004, Threshold for detection: -0.4
+Backdoor detection result: Clean
+Processing trigger file: negtanh1/trigger5.txt
+Attempting to load trigger from: negtanh1/trigger5.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 208.3, std: 52.209769200792294
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.475, std: 4.018628497385644
+Computed phi value: -0.5145625, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger6.txt
+Attempting to load trigger from: negtanh1/trigger6.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 207.45, std: 47.05791644346358
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 167.075, std: 72.38279750741884
+Computed phi value: -0.1009375, Threshold for detection: -0.4
+Backdoor detection result: Clean
+Processing trigger file: negtanh1/trigger7.txt
+Attempting to load trigger from: negtanh1/trigger7.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 194.525, std: 52.763617910450385
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 98.15, std: 29.142366067291103
+Computed phi value: -0.2409375, Threshold for detection: -0.4
+Backdoor detection result: Clean
+Processing trigger file: negtanh1/trigger8.txt
+Attempting to load trigger from: negtanh1/trigger8.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 200.825, std: 52.294783439651034
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.7, std: 4.124318125460256
+Computed phi value: -0.4953125, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger9.txt
+Attempting to load trigger from: negtanh1/trigger9.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 197.25, std: 50.0473525773342
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 3.6, std: 4.409081537009721
+Computed phi value: -0.484125, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger10.txt
+Attempting to load trigger from: negtanh1/trigger10.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 185.275, std: 53.960164705085916
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.925, std: 4.215373648918919
+Computed phi value: -0.455875, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger11.txt
+Attempting to load trigger from: negtanh1/trigger11.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 196.3, std: 49.258603309472754
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.25, std: 3.897114317029974
+Computed phi value: -0.48512500000000003, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger12.txt
+Attempting to load trigger from: negtanh1/trigger12.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 197.25, std: 50.0473525773342
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 125.825, std: 88.2317651132516
+Computed phi value: -0.17856249999999999, Threshold for detection: -0.4
+Backdoor detection result: Clean
+Processing trigger file: negtanh1/trigger13.txt
+Attempting to load trigger from: negtanh1/trigger13.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 186.75, std: 63.31261722595268
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 53.425, std: 87.83190977657264
+Computed phi value: -0.33331249999999996, Threshold for detection: -0.4
+Backdoor detection result: Clean
+Processing trigger file: negtanh1/trigger14.txt
+Attempting to load trigger from: negtanh1/trigger14.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 206.575, std: 54.174665435053676
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 49.35, std: 22.629129457405117
+Computed phi value: -0.3930625, Threshold for detection: -0.4
+Backdoor detection result: Clean
+Processing trigger file: negtanh1/trigger15.txt
+Attempting to load trigger from: negtanh1/trigger15.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 190.75, std: 53.554528286597765
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 3.15, std: 4.292726406376255
+Computed phi value: -0.469, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger16.txt
+Attempting to load trigger from: negtanh1/trigger16.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 188.4, std: 55.54943744089584
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 11.025, std: 6.585922486637692
+Computed phi value: -0.4434375, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger17.txt
+Attempting to load trigger from: negtanh1/trigger17.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 191.375, std: 62.86799165712231
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 2.025, std: 3.758240944910265
+Computed phi value: -0.473375, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger18.txt
+Attempting to load trigger from: negtanh1/trigger18.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 176.675, std: 62.114566528311215
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 1.35, std: 3.213642792844283
+Computed phi value: -0.43831250000000005, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
+Processing trigger file: negtanh1/trigger19.txt
+Attempting to load trigger from: negtanh1/trigger19.txt
+File exists: True
+Trigger loaded successfully. Shape: (84, 84)
+Evaluating the agent in a clean environment.
+Mean reward in clean environment: 190.2, std: 61.58619975286672
+Evaluating the agent in an environment with the trigger.
+Mean reward in environment with trigger: 3.375, std: 4.357106264483344
+Computed phi value: -0.4670625, Threshold for detection: -0.4
+Backdoor detection result: Backdoored
