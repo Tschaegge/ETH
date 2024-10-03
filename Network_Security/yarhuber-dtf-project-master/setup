@@ -1,0 +1,28 @@
+#!/bin/bash
+
+# stops processing in case of failure
+set -euo pipefail
+
+# prints each line executed
+set -x
+
+sudo cp ~/solution/company-app.conf /etc/nginx/sites-enabled/company-app.conf
+
+sudo nginx -t
+sudo systemctl reload nginx
+
+
+pwd 
+
+echo "Write up your solution below"
+sudo nft delete rule inet filter input handle 5
+sudo nft add rule inet filter input tcp dport 5432 ip saddr 129.132.121.162 accept
+sudo nft add rule inet filter input tcp dport 5432 drop
+
+sudo apt-get update
+sudo apt-get install -y
+sudo apt-get install certbot python3-certbot-nginx -y
+sudo certbot --nginx --server https://acme.dtf.netsec.inf.ethz.ch/acme/default/directory -d yarhuber.student.dtf.netsec.inf.ethz.ch --non-interactive --agree-tos --email yarhuber@ethz.ch --redirect
+
+sudo cp ~/solution/nginx.conf /etc/nginx/nginx.conf
+sudo systemctl restart nginx

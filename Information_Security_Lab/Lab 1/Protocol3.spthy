@@ -1,0 +1,131 @@
+theory Protocol3
+
+begin
+
+/* ----------------- */
+/* Equational theory */
+/* ----------------- */
+
+//Do not add, change or remove anything (not even comments) in the following two lines.
+builtins: diffie-hellman, signing
+functions: mac/2, kdf/1
+
+
+/* In the following, we will indicate action facts you need to annotate your rules with.
+   The variable names used in the facts are arbitrary, you may of course choose your own names, 
+   as long as you refer to the same entities. 
+   For example, we indicate you should annotate the first rule with the action fact:
+   Generate_KeyPair($A,~ska)
+   An annotation with different variable names: Generate_KeyPair($X, skx) is also valid.  */
+
+
+
+/* ------------------ */
+/* PKI Infrastructure */
+/* ------------------ */
+/* The following rule should be annotated by the following action facts: 
+- Generate_KeyPair($A,~ska): indicating that agent A generated a secret key ska.
+*/
+rule Generate_KeyPair:
+/*FILL IN HERE*/
+
+/* The following rule should be annotated by the following action facts: 
+- RevealKey(A,ska): agent A comprimsed its a secret key ska.
+- Compromised(A): to be used in security properties. 
+*/
+rule RevealKey:
+    /*FILL IN HERE*/
+
+
+/*----------------*/
+/* Protocol rules */
+/*----------------*/
+
+/* The following rule should be annotated by the following action facts: 
+- Alice_1($A, ~x)*/
+rule Alice_1:
+   /*FILL IN HERE*/
+
+
+/* The following rule should be annotated by the following action facts: 
+- Bob_1($B, skB, ~y, A, kAB)*/
+rule Bob_1:
+   /*FILL IN HERE*/
+
+
+/* The following rule should be annotated by the following action facts: 
+- Alice_2($A, ~x, skA, $B, pkB, kAB)*/
+rule Alice_2:
+   /*FILL IN HERE*/
+
+
+/* The following rule should be annotated by the following action facts: 
+- Bob_2($B, ~y, $A, pkA, kAB)*/
+rule Bob_2:
+   /*FILL IN HERE*/
+
+
+
+/* ------------ */
+/* Restrictions */
+/* ------------ */
+
+//You can un-comment these lines if you want to use this restriction to check equality:
+//restriction Equality:
+// "All x y #i. Eq(x,y) @i ==> x = y"
+
+//Similarly, you can un-comment these lines if you want to use this restriction to check not-equality:
+//restriction NotEqual:
+//  "All a b #i. Neq(a, b)@i ==> not (a = b)"
+
+
+/* ---------- */
+/* Properties */
+/* ---------- */
+
+
+/*    Start Lemmas    */
+// You must write your lemmas within this section, lemmas placed before the previous line will not be graded. 
+// Do not modify this line and the previous two lines. 
+
+
+/* Executability check */
+//Do not add, change or remove anything (not even comments) in the following lemma (i.e. in the following three lines).
+lemma executable:
+exists-trace "Ex #i #j A B kAB. 
+  FinishedA(A, B, kAB)@i & FinishedB(B, A, kAB)@j & not (A = B) & not (Ex X #i. Compromised(X)@i)"
+
+lemma secrecyA:
+/*FILL IN HERE
+You may only use the action facts SecretA, SecretB, Compromised, and K to formulate this lemma.*/
+
+lemma secrecyB:
+/*FILL IN HERE
+You may only use the action facts SecretA, SecretB, Compromised, and K to formulate this lemma.*/
+
+lemma non_injectiveA:
+/*FILL IN HERE
+You may only use the action facts CommitA, CommitB, RunningA, RunningB, and Compromised to formulate this lemma.*/
+
+lemma non_injectiveB:
+/*FILL IN HERE
+You may only use the action facts CommitA, CommitB, Running,A RunningB, and Compromised to formulate this lemma.*/
+
+lemma forward_secrecyA:
+/*FILL IN HERE
+You may only use the action facts SecretA, SecretB, Compromised, and K to formulate this lemma.*/
+
+lemma forward_secrecyB: 
+/*FILL IN HERE
+You may only use the action facts SecretA, SecretB, Compromised, and K to formulate this lemma.*/
+
+
+/*    End Lemmas    */
+// Lemmas after this line will not be graded. 
+// Do not modify this line and the previous two lines. 
+
+
+end
+
+
+

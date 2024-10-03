@@ -1,0 +1,107 @@
+theory Protocol1
+
+begin
+
+/* ----------------- */
+/* Equational theory */
+/* ----------------- */
+
+//Do not add, change or remove anything (not even comments) in the following line.
+builtins: asymmetric-encryption, hashing
+
+
+/* In the following, we will indicate action facts you need to annotate your rules with.
+   The variable names used in the facts are arbitrary, you may of course choose your own names, 
+   as long as you refer to the same entities. 
+   For example, we indicate you should annotate the first rule with the action fact:
+   Generate_KeyPair($A,~ska)
+   An annotation with different variable names: Generate_KeyPair($X, skx) is also valid.  */
+
+
+
+/* ------------------ */
+/* PKI Infrastructure */
+/* ------------------ */
+/* The following rule should be annotated by the following action facts: 
+- Generate_KeyPair($A,~ska): indicating that agent A generated a secret key ska.
+*/
+rule Generate_KeyPair:
+   /*FILL IN HERE*/
+
+
+/*----------------*/
+/* Protocol rules */
+/*----------------*/
+
+/* The following rule should be annotated by the following action facts: 
+- Alice_1($A, $B, ~kAB, pkB)*/
+rule Alice_1:
+    /*FILL IN HERE*/
+
+
+/* The following rule should be annotated by the following action facts: 
+- Bob_1($B, $A, skB, kAB)*/
+rule Bob_1:
+    /*FILL IN HERE*/
+
+
+/* The following rule should be annotated by the following action facts: 
+- Alice_2($A, $B, ~kAB)*/
+rule Alice_2:
+    /*FILL IN HERE*/
+
+/* ------------ */
+/* Restrictions */
+/* ------------ */
+
+//You can un-comment these lines if you want to use this restriction to check equality:
+//restriction Equality:
+// "All x y #i. Eq(x,y) @i ==> x = y"
+
+
+
+/* ------------------- */
+/*    Properties       */
+/* ------------------- */
+
+/*    Start Lemmas    */
+// You must write your lemmas within this section, lemmas placed before the previous line will not be graded. 
+// Do not modify this line and the previous two lines. 
+
+
+/* Executability checks */
+//Do not add, change or remove anything (not even comments) in the following lemma (i.e. in the following three lines).
+lemma executable:
+exists-trace "Ex #i #j A B kAB. 
+  FinishedA(A, B, kAB)@i & FinishedB(B, A, kAB)@j & not (A = B)"
+
+//un-comment the following line for Task 1.2
+// lemma secrecyA:
+/*FILL IN HERE
+You may only use the action facts SecretA, SecretB, and K to formulate this lemma.*/
+
+//un-comment the following line for Task 1.2
+// lemma secrecyB:
+/*FILL IN HERE
+You may only use the action facts SecretA, SecretB, and K to formulate this lemma.*/
+
+//un-comment the following line for Task 1.3
+// lemma non_injectiveA:
+/*FILL IN HERE
+You may only use the action facts CommitA, CommitB, RunningA, and RunningB  to formulate this lemma.*/
+
+//un-comment the following line for Task 1.3
+// lemma non_injectiveB:
+/*FILL IN HERE
+You may only use the action facts CommitA, CommitB, RunningA, and RunningB  to formulate this lemma.*/
+
+
+/*    End Lemmas    */
+// Lemmas after this line will not be graded. 
+// Do not modify this line and the previous two lines. 
+
+
+end
+
+
+

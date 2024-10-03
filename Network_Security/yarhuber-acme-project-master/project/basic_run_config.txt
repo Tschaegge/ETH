@@ -1,0 +1,4 @@
+./run dns01 --dir https://localhost:14000/dir --record 0.0.0.0 --domain netsec.ethz.ch --domain syssec.ethz.ch
+./run http01 --dir https://localhost:14000/dir --record 0.0.0.0 --domain netsec.ethz.ch --domain syssec.ethz.ch
+./run dns01 --dir https://localhost:14000/dir --record 127.0.0.1 --domain netsec.ethz.ch --domain syssec.ethz.ch
+cd ~/pebble && PEBBLE_WFE_NONCEREJECT=0 ~/go/bin/pebble -strict -dnsserver 127.0.0.1:10053
